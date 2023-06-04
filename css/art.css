@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    margin-left: 18px;
+    font-size: 30px;
+    color: black;
+}
+body{
+    font-family: "Robotics",sans-serif;
+    background-color: rgb(233, 236, 228);
+}
+nav{
+    background: linear-gradient(100deg,aqua ,purple 60%);
+    /* padding: 20px 0; */
+    height: 60px;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
+.bg{
+    background-image: url(1.jpg);
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+position: fixed;
+z-index: -1;
+}
+ul{
+    display: flex;
+}
+i{
+    margin-top: 8px;
+}
+
+li{
+    margin: 0 20px;
+    list-style: none;
+}
+a{
+    font-size: 20px;
+ color: beige;
+ text-decoration: none;
+}
